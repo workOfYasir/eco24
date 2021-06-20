@@ -324,7 +324,7 @@ Mit Soforthilfe-Garantie!
                                 name="Schulden" type="number" min="100" max="1000000000" required placeholder="Schuldenhöhe in €">
                             <div class="mt-5">&nbsp</div>
                             <div class="col-md-12 text-right">
-                            <button type="button" name="next" class=" btn btn-success "
+                            <button type="button" name="next" class=" btn btn-css "
                                 style="border:0px; " onclick="nextPrev(1)"
                                 id="next">Weiter
                             </button>
@@ -429,7 +429,7 @@ Mit Soforthilfe-Garantie!
                                 required type="date" id="birthdate" name="birthdate" max="2005-01-01" min="1940-01-01">
                             <div class="mt-5">&nbsp</div>
                             <div class="col-md-12 text-right">
-                            <button type="button" name="next" class=" btn btn-success "
+                            <button type="button" name="next" class=" btn btn-css "
                                 style="border:0px; " onclick="animation()"
                                 id="next">Weiter
                             </button>
@@ -504,19 +504,19 @@ Mit Soforthilfe-Garantie!
                                                         id="gridCheck">
                                                 </div>
                                                 <div class="col-md-11 text-left" style="padding-left: 2px; padding-right:0px">
-                                                    Ja, ich möchte per E-Mail den eco24-Newsletter mit wertvollen Tipps zu Finanz- und Zukunftsplanung erhalten.
+                                                    &nbsp;&nbsp;&nbsp;Ja, ich möchte per E-Mail den eco24-Newsletter mit wertvollen Tipps zu Finanz- und Zukunftsplanung erhalten.
 
                                                 </div><br>
                                                
                                             </div>
-                                            <div class="col-md-12" style="    font-size: 16px;">
+                                            <div class="col-md-12" style="    font-size: 16px; padding-left:0px">
                                                 Durch das Absenden stimme ich der Datenschutzerklärung zu und erlaube, dass man mir per Post, Telefon oder E-Mail Informationen zukommen lässt.
                                                 </div>
                                         </div>
                                     </div>
                                     <div class="mt-5">&nbsp;</div>
                                     <div class="col-md-12 text-right">
-                                      <button type="submit" name="submit" class=" btn btn-success" style="border:0px;" id="submit">
+                                      <button type="submit" name="submit" class=" btn  btn-css"id="submit">
                                         Absenden
                                       </button>
                                     </div>

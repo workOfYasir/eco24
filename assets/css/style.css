@@ -9,6 +9,19 @@
             overflow-x: hidden;
             background-image:  url("../img/background.jpg");
         }
+        .btn-css{
+          width: 100px;
+          background-color: #19364D !important;
+          border: none;
+          border-radius: 5px;
+          color: white;
+          padding: 10px 0px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          font-family: 'Signika Negative', sans-serif;
+        }
         a{
           color: rgb(66, 66, 66);
         }
@@ -24,7 +37,7 @@
         }
 
         .col-md-02{
-          width:0%;
+          width:0.5%;
         }
        
         .logo-center{

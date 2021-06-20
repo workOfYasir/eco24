@@ -114,7 +114,7 @@ Kostenloser Kundenservice: 0800 29 29 29 4</span>
   console.log(x.length);
   console.log(z.length);
   for (let i = 0; i < x.length; i++) {
-    z[i].style.backgroundColor = "yellow";
+    z[i].style.backgroundColor = "#bbbbbb";
    
   }
 var currentTab = 0; // Current tab is set to be the first tab (0)
@@ -126,8 +126,8 @@ function showTab(n) {
   var x = document.getElementsByClassName("tab");
 
   x[n].style.display = "block";
-  z[n-1].style.backgroundColor = "red";
-  z[n].style.backgroundColor="black";
+  z[n-1].style.backgroundColor = "#4CAF50";
+  z[n].style.backgroundColor="grey";
 
 }
 document.getElementsByClassName("tab-nxt").style.display='none';
