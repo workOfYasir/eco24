@@ -22,7 +22,7 @@ Mit Soforthilfe-Garantie!
 
 </div>
 <div class="col-md-12 col-sm-12 col-xs-12 text-center ">
-            <form class="regForm" action="gif.php">
+            <form class="regForm" action="home.php">
 
                 <div class="tab col-xs-12 col-md-12 col-sm-12 fieldsets">
                     <div class="col-md-6 text-left" >
