@@ -559,6 +559,7 @@ Mit Soforthilfe-Garantie!
 <br>
 <span  style="color:grey;font-size:12px">
 Eco24 erbringt ausschließlich wirtschaftliche und kaufmännische Dienstleistungen. Eine Rechtsberatung wird nicht ausgeübt.</span>
+<div class="mt-5">&nbsp;</div>
     </div>
     </div>
 </div>

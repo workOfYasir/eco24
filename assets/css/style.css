@@ -7,8 +7,12 @@
             margin-left: 0px;
             margin-right: 0px;
             overflow-x: hidden;
+            font-family: 'Signika Negative', sans-serif;
             background-image:  url("../img/background.jpg");
         }
+      *{
+        font-family: 'Signika Negative', sans-serif;
+      }
         .btn-css{
           width: 100px;
           background-color: #19364D !important;
@@ -32,7 +36,8 @@
           box-shadow:inset 10px  10px 10px #888888 !important;
 
         }
-        .padding-xs{
+        .padding-xs{letter-spacing: -1px;
+          line-height: 1;
           padding-left:0px !important
         }
 
@@ -67,7 +72,7 @@
           -webkit-box-shadow:-6px -6px 6px rgb(255 255 255 / 20%), 6px 6px 10px rgb(0 0 0 / 80%);
     -moz-box-shadow:-6px -6px 6px rgb(255 255 255 / 20%), 6px 6px 10px rgb(0 0 0 / 80%);
     box-shadow: -6px -6px 6px rgb(255 255 255 / 20%), 6px 6px 10px rgb(0 0 0 / 80%);
-color: yellow;
+color: #C6D301;
     border-radius: 32px;
         }
         .dismiss {
@@ -169,11 +174,7 @@ padding-right: 8px;
         .diamond-div{
             margin-top: -2px;
         }
-        .footer-text {
-        font-family: 'Titillium Web', Geneva, sans-serif;
-        font-size: 15px;
-        color:#7D7D7D;
-       }
+
        .contact-us{
            background-color: #f4f6f8;
            padding-left: 35px;
@@ -185,7 +186,7 @@ padding-right: 8px;
        }
 
        .contact-us-text{
-        font-family: 'Titillium Web', Geneva, sans-serif;
+        font-family: "Signika Negative", sans-serif;
         font-size: 16px;
         font-weight: 600px;
         padding-left: 0px;
@@ -194,12 +195,12 @@ padding-right: 8px;
        }
        .a-tag{
            color: #7D7D7D;
-           font-family: 'Titillium Web', Geneva, sans-serif;
+           font-family: "Signika Negative", sans-serif;
            font-size: 12px;
        }
        .copyright{
             color: #7D7D7D;
-           font-family: 'Titillium Web', Geneva, sans-serif;
+           font-family: "Signika Negative", sans-serif;
            font-size: 12px;
        }
        .regForm .tab:not(:first-of-type) {
@@ -253,7 +254,7 @@ padding-right: 8px;
     padding-right: 0px;
     }
     .contact-us-text{
-      font-family: 'Titillium Web', Geneva, sans-serif;
+      font-family:"Signika Negative", sans-serif;
       font-size: 16px;
       font-weight: bold;
       padding-left: 0px;
@@ -287,7 +288,7 @@ padding-right: 8px;
         padding-right: 0px;
         }
         .contact-us-text{
-        font-family: 'Titillium Web', Geneva, sans-serif;
+        font-family: "Signika Negative", sans-serif;
         font-size: 16px;
         font-weight: 600px;
         padding-left: 0px;
@@ -367,6 +368,8 @@ padding-right: 8px;
     float: left;
   }
   .padding-xs{
+    letter-spacing: -1px;
+    line-height: 1;
     padding-left:15px !important
   }
   .container-md {
@@ -424,7 +427,8 @@ padding-right: 8px;
     box-shadow:inset 10px  10px 10px #888888 !important;
 
   }
-  .padding-xs{
+  .padding-xs{letter-spacing: -1px;
+    line-height: 1;
     padding-left:15px !important ;
   }
   .container-md {
@@ -461,7 +465,8 @@ padding-right: 8px;
     box-shadow:inset 10px  10px 10px #888888 !important;
 
   }
-  .padding-xs{
+  .padding-xs{letter-spacing: -1px;
+    line-height: 1;
     padding-left:15px !important
   }
   .container-md {
@@ -511,7 +516,8 @@ padding-right: 8px;
             font-size: 15px;
             color: #51CF6A;
         }
-        .padding-xs{
+        .padding-xs{letter-spacing: -1px;
+          line-height: 1;
           padding-left:0px !important
         }
         .container-md{
@@ -550,7 +556,7 @@ padding-right: 8px;
            
        }
        .footer-text {
-        font-family: 'Titillium Web', Geneva, sans-serif;
+        font-family: "Signika Negative", sans-serif;
         font-size: 11px;
         color:#7D7D7D;
        }
@@ -570,7 +576,7 @@ margin-bottom: 1.5%;
         text-align: right;
        }
        .contact-us-text{
-        font-family: 'Titillium Web', Geneva, sans-serif;
+        font-family:"Signika Negative", sans-serif;
         font-size: 16px;
         font-weight: 600px;
         padding-left: 0px;
