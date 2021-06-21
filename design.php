@@ -7,7 +7,7 @@ include("./assets/components/header.php")
 <div class="container-md container-fluid" style="background-color: #fff;">
 
 <div class="row">
-<div class="col-md-12 col-sm-12 col-xs-12 " style="font-weight: 600;">
+<div class="col-md-12 col-sm-12 col-xs-12 " style="font-weight: 600;padding-left:0px">
 <div class="col-md-12 col-sm-12 col-xs-12">
 <div class="col-md-12 col-sm-12 col-xs-12">
 <div class="col-md-12 col-sm-12 col-xs-12 padding-xs">
@@ -21,7 +21,7 @@ Mit Soforthilfe-Garantie!
     <div class="mt-5">&nbsp;</div>
 
 </div>
-<div class="col-md-12 col-sm-12 col-xs-12 text-center ">
+<div class="col-md-12 col-sm-12 col-xs-12 text-center " style="padding-left: 0px;">
             <form class="regForm" action="home.php">
 
                 <div class="tab col-xs-12 col-md-12 col-sm-12 fieldsets">
@@ -29,7 +29,7 @@ Mit Soforthilfe-Garantie!
                         Wie ist Ihre familiäre Situation?
                     </div>
                     <div class="mt-5">&nbsp;</div>
-                    <div class="col-md-11">
+                    <div class="col-md-12">
                     <div class="col-md-3 col-lg-3 col-sm-6 col-xs-6  card-wrapper">
                         <div class="wrapper">
                             <label style="display: block;">
@@ -456,7 +456,7 @@ Mit Soforthilfe-Garantie!
                 </div>
                 <div id="tab-form">
                
-                    <div class="container-fluid"style="padding-left:30px;padding-right:30px">
+                    <div class="container-fluid"style="padding-left:30px;padding-right:30px;">
                     <span style="text-decoration: none; font-size:14px">
                     Info:
                     </span>
@@ -464,36 +464,36 @@ Mit Soforthilfe-Garantie!
                                  
                                         <div class="form-group col-md-6" style="padding-left: 2px; padding-right:2px">
 
-                                            <input type="text" class="form-control" id="inputEmail4"
+                                            <input type="text" class="form-control fields" id="inputEmail4"
                                                 placeholder="Vorname*">
                                         </div>
                                         <div class="form-group col-md-6 " style="padding-left: 1px; padding-right:1px">
 
-                                            <input type="text" class="form-control" id="inputPassword4"
-                                                placeholder="Name*">
+                                            <input type="text" class="form-control fields" id="inputPassword4"
+                                                placeholder="Nachname*">
                                         </div>
                                     </div>
                                     <div class="form-row">
                                         <div class="form-group col-md-6" style="padding-left: 2px; padding-right:2px">
 
-                                            <input type="text" class="form-control" id="inputEmail4"
-                                                placeholder="Vorname*">
+                                            <input type="text" class="form-control fields" id="inputEmail4"
+                                                placeholder="name@example.com*">
                                         </div>
                                         <div class="form-group col-md-6 " style="padding-left: 1px; padding-right:1px">
 
-                                            <input type="text" class="form-control" id="inputPassword4"
-                                                placeholder="Name*">
+                                            <input type="text" class="form-control fields" id="inputPassword4"
+                                                placeholder="Telefonnummer">
                                         </div>
                                     </div>
                                     <div class="form-row">
                                         <div class="form-group col-md-6" style="padding-left: 2px; padding-right:2px">
-                                            <input type="text" class="form-control" id="inputEmail4"
-                                                placeholder="Vorname*">
+                                            <input type="text" class="form-control fields" id="inputEmail4"
+                                                placeholder="Straße und Nr.">
                                         </div>
                                         <div class="form-group col-md-6 " style="padding-left: 1px; padding-right:1px">
 
-                                            <input type="text" class="form-control" id="inputPassword4"
-                                                placeholder="Name*">
+                                            <input type="text" class="form-control fields" id="inputPassword4"
+                                                placeholder="PLZ">
                                         </div>
                                     </div>
                                <div class="form-group">
