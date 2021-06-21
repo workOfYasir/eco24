@@ -498,17 +498,18 @@ Mit Soforthilfe-Garantie!
                                     </div>
                                <div class="form-group">
                                         <div class="form-check">
-                                            <div class="col-md-12" style="padding-left: 0px; padding-right:0px;display: flex;     font-size: 16px;">
-                                                <div class="col-md-02" style="padding-left: 0px; padding-right:0px">
+                                            <div class="col-md-12" style="padding-left: 0px; padding-right:0px;display: flex;   font-size: 16px;  ">
+                                                <!-- <div class="col-md-02" style="padding-left: 0px; padding-right:0px"> -->
                                                     <input class="form-check-input checkboxtext" type="checkbox"
                                                         id="gridCheck">
-                                                </div>
+                                                <!-- </div> -->
                                                 <div class="col-md-11 text-left" style="padding-left: 2px; padding-right:0px">
-                                                    &nbsp;&nbsp;&nbsp;Ja, ich möchte per E-Mail den eco24-Newsletter mit wertvollen Tipps zu Finanz- und Zukunftsplanung erhalten.
+                                                    Ja, ich möchte per E-Mail den eco24-Newsletter mit wertvollen Tipps zu Finanz- und </div>  </div>
+                                                    <span style="  font-size: 16px;">Zukunftsplanung erhalten.</span>
 
-                                                </div><br>
+                                                <br>
                                                
-                                            </div>
+                                          
                                             <div class="col-md-12" style="    font-size: 16px; padding-left:0px">
                                                 Durch das Absenden stimme ich der Datenschutzerklärung zu und erlaube, dass man mir per Post, Telefon oder E-Mail Informationen zukommen lässt.
                                                 </div>
