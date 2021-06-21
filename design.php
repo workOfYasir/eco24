@@ -321,7 +321,7 @@ Mit Soforthilfe-Garantie!
                             <div class="container-fluid" style="padding-left: 30px;">
                             <input  id="postal" class="form-control input-lg"
                                 placeholder="Postleitzahl" style="border:1px solid #888888;"
-                                name="Schulden" type="number" min="100" max="1000000000" required placeholder="Schuldenhöhe in €">
+                                name="Schulden" type="number" min="100" max="1000000000"  placeholder="Schuldenhöhe in €">
                             <div class="mt-5">&nbsp</div>
                             <div class="col-md-12 text-right">
                             <button type="button" name="next" class=" btn btn-css "
@@ -426,7 +426,7 @@ Mit Soforthilfe-Garantie!
                             <div class="container-fluid" style="padding-left: 30px;">
                             <input id="postal" class="form-control input-lg"
                                 style="border:1px solid #888888;"
-                                required type="date" id="birthdate" name="birthdate" max="2005-01-01" min="1940-01-01">
+                                 type="date" id="birthdate" name="birthdate" max="2005-01-01" min="1940-01-01">
                             <div class="mt-5">&nbsp</div>
                             <div class="col-md-12 text-right">
                             <button type="button" name="next" class=" btn btn-css "
@@ -560,6 +560,8 @@ Mit Soforthilfe-Garantie!
 <span  style="color:grey;font-size:12px">
 Eco24 erbringt ausschließlich wirtschaftliche und kaufmännische Dienstleistungen. Eine Rechtsberatung wird nicht ausgeübt.</span>
 <div class="mt-5">&nbsp;</div>
+
+
     </div>
     </div>
 </div>

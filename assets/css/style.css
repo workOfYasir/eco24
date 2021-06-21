@@ -1,15 +1,4 @@
 
-        body{
-            padding: 0px;
-            padding-left: 0px;
-            padding-right: 0px;
-            margin: 0px;
-            margin-left: 0px;
-            margin-right: 0px;
-            overflow-x: hidden;
-            font-family: 'Signika Negative', sans-serif;
-            background-image:  url("../img/BGimg.png");
-        }
       *{
         font-family: 'Signika Negative', sans-serif;
       }
@@ -109,7 +98,7 @@ display: none;
             border-right: 40px solid transparent;
         }
         .card-input-element {
-    display: none;
+    display: none !important;
 }
 .fields{
   font-size: 100% !important;
@@ -225,7 +214,22 @@ padding-right: 8px;
   .progress-bar{
     background-image: none;
   }
-  @media (min-width: 1200px){
+  @media only screen and (min-width: 1024px) {
+
+    body{
+      padding: 0px;
+      padding-left: 0px;
+      padding-right: 0px;
+      margin: 0px;
+      margin-left: 0px;
+      margin-right: 0px;
+      overflow-x: hidden;
+      font-family: 'Signika Negative', sans-serif;
+      background-image:  url("../img/BGimg.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%;
+  }
     .col2-5{
       width: 20%;
       float: left;
@@ -234,6 +238,9 @@ padding-right: 8px;
       box-shadow:inset 10px  10px 10px #888888 !important;
 
     }
+    .card-input-element {
+      display: none !important;
+  }
     .center-div{
       padding: 0px;padding-top:10px
      }
@@ -275,6 +282,7 @@ padding-right: 8px;
      }
 
 }
+
  @media (max-width: 1024px){
   .col2-5{
     width: 30% !important;
@@ -284,6 +292,10 @@ padding-right: 8px;
     box-shadow:inset 10px  10px 10px #888888 !important;
 
   }
+
+  .card-input-element {
+    display: none !important;
+}
   .center-div{
     padding: 0px;padding-top:10px
    }
@@ -320,6 +332,20 @@ padding-right: 8px;
     width: 30%;
     float: left;
   }
+  body{
+    padding: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    overflow-x: hidden;
+    font-family: 'Signika Negative', sans-serif;
+    background-color: #fff !important;
+}
+  .card-input-element {
+    display: none !important;
+}
   .radio-card:focus{
     box-shadow:inset 10px  10px 10px #888888 !important;
 
@@ -335,6 +361,9 @@ padding-right: 8px;
 }
 .wrapper-center{
   padding: 0px;
+}
+.card-input-element {
+  display: none !important;
 }
 .card-wrapper{
   padding-left: 5px;
@@ -379,6 +408,20 @@ padding-right: 8px;
     width: 35%;
     float: left;
   }
+  body{
+    padding: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    overflow-x: hidden;
+    font-family: 'Signika Negative', sans-serif;
+    background-color: #fff !important;
+}
+  .card-input-element {
+    display: none !important;
+}
   .padding-xs{
     letter-spacing: -1px;
     line-height: 1;
@@ -387,6 +430,7 @@ padding-right: 8px;
   .container-md {
     width: 100%;
 }
+
 .radio-card:focus{
   box-shadow:inset 10px  10px 10px #888888 !important;
 
@@ -435,6 +479,20 @@ padding-right: 8px;
     width: 35%;
     float: left;
   } 
+  body{
+    padding: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    overflow-x: hidden;
+    font-family: 'Signika Negative', sans-serif;
+    background-color: #fff !important;
+}
+  .card-input-element {
+    display: none !important;
+}
   .radio-card:focus{
     box-shadow:inset 10px  10px 10px #888888 !important;
 
@@ -473,10 +531,24 @@ padding-right: 8px;
     width: 35%;
     float: left;
   }
+  .card-input-element {
+    display: none !important;
+}
   .radio-card:focus{
     box-shadow:inset 10px  10px 10px #888888 !important;
 
   }
+  body{
+    padding: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    overflow-x: hidden;
+    font-family: 'Signika Negative', sans-serif;
+    background-color: #fff !important;
+}
   .padding-xs{letter-spacing: -1px;
     line-height: 1;
     padding-left:15px !important
@@ -519,6 +591,20 @@ padding-right: 8px;
           width: 20%;
           float: left;
         }
+        body{
+          padding: 0px;
+          padding-left: 0px;
+          padding-right: 0px;
+          margin: 0px;
+          margin-left: 0px;
+          margin-right: 0px;
+          overflow-x: hidden;
+          font-family: 'Signika Negative', sans-serif;
+          background-color: #fff !important;
+      }
+        .card-input-element {
+          display: none !important;
+      }
        .text{ 
             font-size: 12px;
             padding-left: 0px;
