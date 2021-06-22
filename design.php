@@ -319,13 +319,13 @@ Mit Soforthilfe-Garantie!
                
    
                             <div class="container-fluid" style="padding-left: 30px;">
-                            <input  id="postal" class="form-control input-lg"
+                            <input  id="Postleitzahl" class="form-control input-lg"
                                 placeholder="Postleitzahl" style="border:1px solid #888888;"
                                 name="Schulden" type="number" min="100" max="1000000000"  placeholder="Schuldenhöhe in €">
                             <div class="mt-5">&nbsp</div>
                             <div class="col-md-12 text-right">
                             <button type="button" name="next" class=" btn btn-css "
-                                style="border:0px; " onclick="nextPrev(1)"
+                                style="border:0px; " onclick="nextValidate(1)"
                                 id="next">Weiter
                             </button>
                         </div>
@@ -498,7 +498,7 @@ Mit Soforthilfe-Garantie!
                                     </div>
                                <div class="form-group">
                                         <div class="form-check">
-                                            <div class="col-md-12" style="padding-left: 0px; padding-right:0px;display: flex;   font-size: 16px;  ">
+                                            <div class="col-md-12" style="padding-left: 0px; padding-right:0px;display: flex;   font-size: 16px; ">
                                                 <!-- <div class="col-md-02" style="padding-left: 0px; padding-right:0px"> -->
                                                     <input class="form-check-input checkboxtext" type="checkbox"
                                                         id="gridCheck">
@@ -567,17 +567,28 @@ Eco24 erbringt ausschließlich wirtschaftliche und kaufmännische Dienstleistung
     </div>
 </div>
 </div>
-
-<?php
-include("./assets/components/footer.php");
-?>
 <script>
-//       $( document ).ready(function() {
-//           console.log('yes');
-//             // document.getElementsByClassName("tab-nxt").style.display='none';
-//             var elems = document.getElementsByClassName('tab-nxt');
-// for (var i=0;i<elems.length;i+=1){
-//   elems[i].style.display = 'none';
-// }
-//       });
+   var x = document.getElementsByClassName("tab");
+  var z = document.getElementsByClassName("progress")
+  console.log(x.length);
+  console.log(z.length);
+  for (let i = 0; i < x.length; i++) {
+    z[i].style.backgroundColor = "#bbbbbb;";
+   
+  }
+var currentTab = 0; // Current tab is set to be the first tab (0)
+var current = 1,steps;
+showTab(currentTab); // Display the current tab
+var steps = $(".tab").length;
+function showTab(n) {
+  // This function will display the specified tab of the form ...
+  var x = document.getElementsByClassName("tab");
+
+  x[n].style.display = "block";
+  z[n-1].style.backgroundColor = "#4CAF50";
+  z[n].style.backgroundColor="black";
+
+}
+document.getElementsByClassName("tab-nxt").style.display='none';
+
 </script>
