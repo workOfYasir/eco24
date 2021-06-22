@@ -1,7 +1,77 @@
 
 // $( document ).ready(function() {
 //   console.log('ok');
-
+function validate() {
+  var v1 = document.getElementById('vorname').value;
+var v2 = document.getElementById('telefon').value;
+var v3 = document.getElementById('nachname').value;
+var v4 = document.getElementById('email').value;
+if( v1 ==''){    document.getElementById('vorname').style.backgroundColor='#F8DDDD';}
+if( v2 ==''){    document.getElementById('telefon').style.backgroundColor='#F8DDDD';}
+if( v3 ==''){    document.getElementById('nachname').style.backgroundColor='#F8DDDD';}
+if( v4 ==''){    document.getElementById('email').style.backgroundColor='#F8DDDD';}
+if( v1 =='' && v2 ==''){
+    document.getElementById('vorname').style.backgroundColor='#F8DDDD';
+    document.getElementById('telefon').style.backgroundColor='#F8DDDD';
+}
+if( v1 =='' && v3 ==''){
+    document.getElementById('vorname').style.backgroundColor='#F8DDDD';
+    document.getElementById('nachname').style.backgroundColor='#F8DDDD';
+}
+if( v1 =='' && v4 ==''){
+    document.getElementById('vorname').style.backgroundColor='#F8DDDD';
+    document.getElementById('email').style.backgroundColor='#F8DDDD';
+}
+if( v2 =='' && v4 ==''){
+    document.getElementById('telefon').style.backgroundColor='#F8DDDD';
+    document.getElementById('email').style.backgroundColor='#F8DDDD';
+}
+if( v2 =='' && v3 ==''){
+    document.getElementById('telefon').style.backgroundColor='#F8DDDD';
+    document.getElementById('nachname').style.backgroundColor='#F8DDDD';
+}
+if( v2 =='' && v2 ==''){    
+    document.getElementById('telefon').style.backgroundColor='#F8DDDD';
+    document.getElementById('telefon').style.backgroundColor='#F8DDDD';
+}
+if( v3 =='' && v3 ==''){    
+    document.getElementById('nachname').style.backgroundColor='#F8DDDD';
+    document.getElementById('nachname').style.backgroundColor='#F8DDDD';
+}
+if( v3 =='' && v4 ==''){
+    document.getElementById('nachname').style.backgroundColor='#F8DDDD';
+    document.getElementById('email').style.backgroundColor='#F8DDDD';
+}
+if( v4 =='' && v4 ==''){
+    document.getElementById('email').style.backgroundColor='#F8DDDD';
+    document.getElementById('email').style.backgroundColor='#F8DDDD';
+}
+if( v1 =='' && v2 =='' && v3==''){
+    document.getElementById('vorname').style.backgroundColor='#F8DDDD';
+    document.getElementById('telefon').style.backgroundColor='#F8DDDD';
+    document.getElementById('nachname').style.backgroundColor='#F8DDDD';
+}
+if( v1 =='' && v2 =='' && v4==''){
+    document.getElementById('vorname').style.backgroundColor='#F8DDDD';
+    document.getElementById('telefon').style.backgroundColor='#F8DDDD';
+    document.getElementById('email').style.backgroundColor='#F8DDDD';
+}if( v1 =='' && v3 =='' && v4==''){
+    document.getElementById('vorname').style.backgroundColor='#F8DDDD';
+    document.getElementById('nachname').style.backgroundColor='#F8DDDD';
+    document.getElementById('email').style.backgroundColor='#F8DDDD';
+}
+if( v2 =='' && v3 =='' && v4==''){
+    document.getElementById('telefon').style.backgroundColor='#F8DDDD';
+    document.getElementById('nachname').style.backgroundColor='#F8DDDD';
+    document.getElementById('email').style.backgroundColor='#F8DDDD';
+}
+if( v1 =='' && v2 =='' && v3=='' && v4==''){
+    document.getElementById('vorname').style.backgroundColor='#F8DDDD';
+    document.getElementById('telefon').style.backgroundColor='#F8DDDD';
+    document.getElementById('nachname').style.backgroundColor='#F8DDDD';
+    document.getElementById('email').style.backgroundColor='#F8DDDD';
+}
+}
 function nextValidate(n) {
   var validNo = document.getElementById('Postleitzahl').value ;
   console.log('validate:'+validNo);

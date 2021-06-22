@@ -463,25 +463,24 @@ Mit Soforthilfe-Garantie!
                                     <div class="form-row">
                                  
                                         <div class="form-group col-md-6" style="padding-left: 2px; padding-right:2px">
-
-                                            <input type="text" class="form-control fields" id="inputEmail4"
+                                            <input type="text" class="form-control fields" required id="vorname"
                                                 placeholder="Vorname*">
                                         </div>
                                         <div class="form-group col-md-6 " style="padding-left: 1px; padding-right:1px">
 
-                                            <input type="text" class="form-control fields" id="inputPassword4"
+                                            <input type="text" class="form-control fields" required id="nachname"
                                                 placeholder="Nachname*">
                                         </div>
                                     </div>
                                     <div class="form-row">
                                         <div class="form-group col-md-6" style="padding-left: 2px; padding-right:2px">
 
-                                            <input type="text" class="form-control fields" id="inputEmail4"
+                                            <input type="text" class="form-control fields" required id="email"
                                                 placeholder="name@example.com*">
                                         </div>
                                         <div class="form-group col-md-6 " style="padding-left: 1px; padding-right:1px">
 
-                                            <input type="text" class="form-control fields" id="inputPassword4"
+                                            <input type="text" class="form-control fields" required id="telefon"
                                                 placeholder="Telefonnummer">
                                         </div>
                                     </div>
@@ -517,7 +516,7 @@ Mit Soforthilfe-Garantie!
                                     </div>
                                     <div class="mt-5">&nbsp;</div>
                                     <div class="col-md-12 text-right">
-                                      <button type="submit" name="submit" class=" btn  btn-css"id="submit">
+                                      <button type="submit" name="submit" onclick="validate()" class=" btn  btn-css"id="submit">
                                         Absenden
                                       </button>
                                     </div>
@@ -568,6 +567,7 @@ Eco24 erbringt ausschließlich wirtschaftliche und kaufmännische Dienstleistung
 </div>
 </div>
 <script>
+
    var x = document.getElementsByClassName("tab");
   var z = document.getElementsByClassName("progress")
   console.log(x.length);
@@ -591,4 +591,6 @@ function showTab(n) {
 }
 document.getElementsByClassName("tab-nxt").style.display='none';
 
+</script>
+<script>
 </script>
