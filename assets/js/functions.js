@@ -86,23 +86,10 @@ function formValidity(){
 if(v1 !='' && v2 !='' && v3!='' && v4!=''){
 document.getElementById("regForm").submit();
 }}
-// document.getElementById("regForm").submit();
-// formValidity()
+
 }
-// document.getElementById('submitBTN').addEventListener('click',formValidity);
-//  document.getElementById("submitBTN").onclick = formValidity();
-// var v1 = document.getElementById('vorname').value;
-// var v2 = document.getElementById('telefon').value;
-// var v3 = document.getElementById('nachname').value;
-// var v4 = document.getElementById('email').value;
 
 
-// document.getElementById("submitBTN").onclick = submitAction;
-// function submitAction()
-// {
-//     document.getElementById("regForm").submit();
-//     return false;
-// }
 function nextValidate(n) {
   var validNo = document.getElementById('Postleitzahl').value ;
   console.log('validate:'+validNo);

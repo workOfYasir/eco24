@@ -22,7 +22,7 @@ Mit Soforthilfe-Garantie!
 
 </div>
 <div class="col-md-12 col-sm-12 col-xs-12 text-center " style="padding-left: 0px;">
-            <form class="regForm" id="regForm" action="home.php">
+            <form class="regForm" id="regForm" method="POST" action="home.php">
 
                 <div class="tab col-xs-12 col-md-12 col-sm-12 fieldsets">
                     <div class="col-md-6 text-left" >
@@ -33,7 +33,7 @@ Mit Soforthilfe-Garantie!
                     <div class="col-md-3 col-lg-3 col-sm-6 col-xs-6  card-wrapper">
                         <div class="wrapper">
                             <label style="display: block;">
-                                <input type="radio" name="product" class="card-input-element nextBtn"
+                                <input type="radio" name="radio1" value="1:1-4"class="card-input-element nextBtn"
                                     onclick="nextPrev(1)" />
                               
                                 <div class="panel panel-default card-input  radio-card col-xs-12 col-md-12 col-sm-12" tabindex="0">
@@ -59,7 +59,7 @@ Mit Soforthilfe-Garantie!
                     <div class="col-md-3 col-lg-3 col-sm-6 col-xs-6  card-wrapper ">
                         <div class="wrapper">
                             <label style="display: block;">
-                                <input type="radio" name="product" class="card-input-element nextBtn"
+                                <input type="radio" name="radio1"value="1:2-4" class="card-input-element nextBtn"
                                     onclick="nextPrev(1)" />
 
                                     <div class="panel panel-default card-input  radio-card col-xs-12 col-md-12 col-sm-12" tabindex="0">
@@ -85,7 +85,7 @@ Mit Soforthilfe-Garantie!
                     <div class="col-md-3 col-lg-3 col-sm-6 col-xs-6  card-wrapper ">
                         <div class="wrapper">
                             <label style="display: block;">
-                                <input type="radio" name="product" class="card-input-element nextBtn"
+                                <input type="radio" name="radio1" value="1:3-4" class="card-input-element nextBtn"
                                     onclick="nextPrev(1)" />
 
                                     <div class="panel panel-default card-input  radio-card col-xs-12 col-md-12 col-sm-12" tabindex="0">
@@ -111,7 +111,7 @@ Mit Soforthilfe-Garantie!
                     <div class="col-md-3 col-lg-3 col-sm-6 col-xs-6 card-wrapper ">
                         <div class="wrapper">
                             <label style="display: block;">
-                                <input type="radio" name="product" class="card-input-element nextBtn"
+                                <input type="radio" name="radio1" value="1:4-4" class="card-input-element nextBtn"
                                     onclick="nextPrev(1)" />
 
                                     <div class="panel panel-default card-input  radio-card col-xs-12 col-md-12 col-sm-12" tabindex="0">
@@ -145,7 +145,7 @@ Mit Soforthilfe-Garantie!
                     <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12   card-wrapper " style="padding-left: 0px;padding-inline:10px">
                         <div class="wrapper">
                             <label style="display: block;" style="width: 100%;">
-                                <input type="radio" name="product" class="card-input-element nextBtn"
+                                <input type="radio" name="radio2" value="2:1-3" class="card-input-element nextBtn"
                                     onclick="nextPrev(1)" />
 
                                     <div class="panel panel-default card-input  radio-card col-xs-12 col-md-12 col-sm-12" tabindex="0">
@@ -170,7 +170,7 @@ Mit Soforthilfe-Garantie!
                     <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 card-wrapper " style="padding-left: 0px;padding-inline:10px">
                         <div class="wrapper">
                             <label style="display: block;" style="width: 100%;">
-                                <input type="radio" name="product" class="card-input-element nextBtn"
+                                <input type="radio" name="radio2" value="2:2-2" class="card-input-element nextBtn"
                                     onclick="nextPrev(1)" />
 
                                     <div class="panel panel-default card-input  radio-card col-xs-12 col-md-12 col-sm-12" tabindex="0">
@@ -199,7 +199,7 @@ Mit Soforthilfe-Garantie!
                     <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 card-wrapper " style="padding-left: 0px;padding-inline:10px">
                         <div class="wrapper">
                             <label style="display: block;" style="width: 100%;">
-                                <input type="radio" name="product" class="card-input-element nextBtn"
+                                <input type="radio" name="radio2" value="2:2-3" class="card-input-element nextBtn"
                                     onclick="nextPrev(1)" />
 
                                     <div class="panel panel-default card-input  radio-card col-xs-12 col-md-12 col-sm-12" tabindex="0">
@@ -235,7 +235,7 @@ Mit Soforthilfe-Garantie!
                     <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12  card-wrapper " style="padding-left: 0px;padding-inline:10px">
                         <div class="wrapper">
                             <label style="display: block;" style="width: 100%;">
-                                <input type="radio" name="product" class="card-input-element nextBtn"
+                                <input type="radio" name="radio3" value="3:1-3" class="card-input-element nextBtn"
                                     onclick="nextPrev(1)" />
 
                                     <div class="panel panel-default card-input  radio-card col-xs-12 col-md-12 col-sm-12" tabindex="0">
@@ -261,7 +261,7 @@ Mit Soforthilfe-Garantie!
                     <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12  card-wrapper " style="padding-left: 0px;padding-inline:10px">
                         <div class="wrapper">
                             <label style="display: block;" style="width: 100%;">
-                                <input type="radio" name="product" class="card-input-element nextBtn"
+                                <input type="radio" name="radio3" value="3:2-3" class="card-input-element nextBtn"
                                     onclick="nextPrev(1)" />
 
                                     <div class="panel panel-default card-input  radio-card col-xs-12 col-md-12 col-sm-12" tabindex="0">
@@ -286,7 +286,7 @@ Mit Soforthilfe-Garantie!
                     <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12  card-wrapper " style="padding-left: 0px;padding-inline:10px">
                         <div class="wrapper">
                             <label style="display: block;" style="width: 100%;">
-                                <input type="radio" name="product" class="card-input-element nextBtn"
+                                <input type="radio" name="radio3" value="3:3-3" class="card-input-element nextBtn"
                                     onclick="nextPrev(1)" />
 
                                     <div class="panel panel-default card-input  radio-card col-xs-12 col-md-12 col-sm-12" tabindex="0">
@@ -321,7 +321,7 @@ Mit Soforthilfe-Garantie!
                             <div class="container-fluid" style="padding-left: 30px;">
                             <input  id="Postleitzahl" class="form-control input-lg"
                                 placeholder="Postleitzahl" style="border:1px solid #888888;"
-                                name="Schulden" type="number" min="100" max="1000000000"  placeholder="Schuldenhöhe in €">
+                                name="number" type="number" min="100" max="1000000000"  placeholder="Schuldenhöhe in €">
                             <div class="mt-5">&nbsp</div>
                             <div class="col-md-12 text-right">
                             <button type="button" name="next" class=" btn btn-css "
@@ -341,7 +341,7 @@ Mit Soforthilfe-Garantie!
                     <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 card-wrapper " style="padding-left: 0px;padding-inline:10px">
                         <div class="wrapper">
                             <label style="display: block;" style="width: 100%;">
-                                <input type="radio" name="product" class="card-input-element nextBtn"
+                                <input type="radio" name="radio4" value="4:1-3" class="card-input-element nextBtn"
                                     onclick="nextPrev(1)" />
 
                                     <div class="panel panel-default card-input  radio-card col-xs-12 col-md-12 col-sm-12" tabindex="0">
@@ -367,7 +367,7 @@ Mit Soforthilfe-Garantie!
                     <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 card-wrapper " style="padding-left: 0px;padding-inline:10px">
                         <div class="wrapper">
                             <label style="display: block;" style="width: 100%;">
-                                <input type="radio" name="product" class="card-input-element nextBtn"
+                                <input type="radio" name="radio4" value="4:2-3" class="card-input-element nextBtn"
                                     onclick="nextPrev(1)" />
 
                                     <div class="panel panel-default card-input  radio-card col-xs-12 col-md-12 col-sm-12" tabindex="0">
@@ -392,7 +392,7 @@ Mit Soforthilfe-Garantie!
                     <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 card-wrapper " style="padding-left: 0px;padding-inline:10px">
                         <div class="wrapper">
                             <label style="display: block;" style="width: 100%;">
-                                <input type="radio" name="product" class="card-input-element nextBtn"
+                                <input type="radio" name="radio4" value="4:3-3" class="card-input-element nextBtn"
                                     onclick="nextPrev(1)" />
 
                                     <div class="panel panel-default card-input  radio-card col-xs-12 col-md-12 col-sm-12" tabindex="0">
@@ -463,35 +463,35 @@ Mit Soforthilfe-Garantie!
                                     <div class="form-row">
                                  
                                         <div class="form-group col-md-6" style="padding-left: 2px; padding-right:2px">
-                                            <input type="text" class="form-control fields" required id="vorname"
+                                            <input type="text" class="form-control fields" required id="vorname" name="vorname"
                                                 placeholder="Vorname*">
                                         </div>
                                         <div class="form-group col-md-6 " style="padding-left: 1px; padding-right:1px">
 
-                                            <input type="text" class="form-control fields" required id="nachname"
+                                            <input type="text" class="form-control fields" required id="nachname" name="nachname"
                                                 placeholder="Nachname*">
                                         </div>
                                     </div>
                                     <div class="form-row">
                                         <div class="form-group col-md-6" style="padding-left: 2px; padding-right:2px">
 
-                                            <input type="text" class="form-control fields" required id="email"
+                                            <input type="text" class="form-control fields" required id="email" name="email"
                                                 placeholder="name@example.com*">
                                         </div>
                                         <div class="form-group col-md-6 " style="padding-left: 1px; padding-right:1px">
 
-                                            <input type="text" class="form-control fields" required id="telefon"
+                                            <input type="text" class="form-control fields" required id="telefon" name="telefon"
                                                 placeholder="Telefonnummer">
                                         </div>
                                     </div>
                                     <div class="form-row">
                                         <div class="form-group col-md-6" style="padding-left: 2px; padding-right:2px">
-                                            <input type="text" class="form-control fields" id="inputEmail4"
+                                            <input type="text" class="form-control fields" id="inputEmail4" name="und"
                                                 placeholder="Straße und Nr.">
                                         </div>
                                         <div class="form-group col-md-6 " style="padding-left: 1px; padding-right:1px">
 
-                                            <input type="text" class="form-control fields" id="inputPassword4"
+                                            <input type="text" class="form-control fields" id="inputPassword4" name="plz"
                                                 placeholder="PLZ">
                                         </div>
                                     </div>
