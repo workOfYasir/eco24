@@ -71,12 +71,32 @@ if( v1 =='' && v2 =='' && v3=='' && v4==''){
     document.getElementById('nachname').style.backgroundColor='#F8DDDD';
     document.getElementById('email').style.backgroundColor='#F8DDDD';
 }
-// document.getElementById("regForm").submit();
+  
+var counter = 0;
+var i = setInterval(function(){
+// do your thing
+formValidity()
+counter++;
+if(counter === 10) {
+   clearInterval(i);
+}
+}, 200);
+
+function formValidity(){
 if(v1 !='' && v2 !='' && v3!='' && v4!=''){
-  // console.log('yes');
-  document.getElementById("regForm").submit(); 
+document.getElementById("regForm").submit();
+}}
+// document.getElementById("regForm").submit();
+// formValidity()
 }
-}
+// document.getElementById('submitBTN').addEventListener('click',formValidity);
+//  document.getElementById("submitBTN").onclick = formValidity();
+// var v1 = document.getElementById('vorname').value;
+// var v2 = document.getElementById('telefon').value;
+// var v3 = document.getElementById('nachname').value;
+// var v4 = document.getElementById('email').value;
+
+
 // document.getElementById("submitBTN").onclick = submitAction;
 // function submitAction()
 // {
