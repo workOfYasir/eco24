@@ -20,7 +20,7 @@
 
 <script src="assets/js/functions.js"></script>
 
-<!-- <link rel="stylesheet" type="" href="./assets/css/style.css"> -->
+<link rel="stylesheet" type="" href="./assets/css/style.css">
     <title>Document</title>
 <style>
     
@@ -240,20 +240,7 @@ padding-right: 8px;
   }
   @media only screen and (min-width: 1024px) {
 
-    body{
-      padding: 0px;
-      padding-left: 0px;
-      padding-right: 0px;
-      margin: 0px;
-      margin-left: 0px;
-      margin-right: 0px;
-      overflow-x: hidden;
-      font-family: 'Signika Negative', sans-serif;
-      background-image:  url("../img/BGimg.png");
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 100%;
-  }
+
   .tab{
     display: none;
 }
