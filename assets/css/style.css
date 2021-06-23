@@ -48,7 +48,6 @@
         .radio-card{
           border-radius: 32px;
           box-shadow: -6px -6px 6px rgb(255 255 255 / 10%), 6px 6px 10px rgb(0 0 0 / 40%);
-
         }
         .icons{
           padding-left: 0px; padding-right:0px;
@@ -230,6 +229,13 @@ padding-right: 8px;
       background-size: cover;
       height: 100%;
   }
+  .tab{
+    display: none;
+}
+  .radio-card{
+    border-radius: 32px;
+    box-shadow: -6px -6px 6px rgb(255 255 255 / 10%), 6px 6px 10px rgb(0 0 0 / 40%);
+  }
     .col2-5{
       width: 20%;
       float: left;
@@ -238,9 +244,9 @@ padding-right: 8px;
       box-shadow:inset 10px  10px 10px #888888 !important;
 
     }
-    .card-input-element {
+  .card-input-element {
       display: none !important;
-  }
+  }  
     .center-div{
       padding: 0px;padding-top:10px
      }
@@ -292,7 +298,13 @@ padding-right: 8px;
     box-shadow:inset 10px  10px 10px #888888 !important;
 
   }
-
+  .tab{
+    display: none;
+}
+  .radio-card{
+    border-radius: 32px;
+    box-shadow: -6px -6px 6px rgb(255 255 255 / 10%), 6px 6px 10px rgb(0 0 0 / 40%);
+  }
   .card-input-element {
     display: none !important;
 }
@@ -332,6 +344,13 @@ padding-right: 8px;
     width: 30%;
     float: left;
   }
+  .tab{
+    display: none;
+}
+  .radio-card{
+    border-radius: 32px;
+    box-shadow: -6px -6px 6px rgb(255 255 255 / 10%), 6px 6px 10px rgb(0 0 0 / 40%);
+  }
   body{
     padding: 0px;
     padding-left: 0px;
@@ -362,9 +381,7 @@ padding-right: 8px;
 .wrapper-center{
   padding: 0px;
 }
-.card-input-element {
-  display: none !important;
-}
+
 .card-wrapper{
   padding-left: 5px;
   padding-right: 5px;
@@ -408,6 +425,13 @@ padding-right: 8px;
     width: 35%;
     float: left;
   }
+  .radio-card{
+    border-radius: 32px;
+    box-shadow: -6px -6px 6px rgb(255 255 255 / 10%), 6px 6px 10px rgb(0 0 0 / 40%);
+  }
+  .tab{
+    display: none;
+}
   body{
     padding: 0px;
     padding-left: 0px;
@@ -435,6 +459,10 @@ padding-right: 8px;
   box-shadow:inset 10px  10px 10px #888888 !important;
 
 }
+.radio-card{
+  border-radius: 32px;
+  box-shadow: -6px -6px 6px rgb(255 255 255 / 10%), 6px 6px 10px rgb(0 0 0 / 40%);
+}
 .center-div{
   padding: 0px;
  }
@@ -459,6 +487,10 @@ padding-right: 8px;
 .icon{
   display: block;
 }
+.radio-card{
+  border-radius: 32px;
+  box-shadow: -6px -6px 6px rgb(255 255 255 / 10%), 6px 6px 10px rgb(0 0 0 / 40%);
+}
 .radio-tab{
   height: 200px;
 }
@@ -479,6 +511,13 @@ padding-right: 8px;
     width: 35%;
     float: left;
   } 
+  .radio-card{
+    border-radius: 32px;
+    box-shadow: -6px -6px 6px rgb(255 255 255 / 10%), 6px 6px 10px rgb(0 0 0 / 40%);
+  }
+  .tab{
+    display: none;
+}
   body{
     padding: 0px;
     padding-left: 0px;
@@ -531,12 +570,19 @@ padding-right: 8px;
     width: 35%;
     float: left;
   }
+  .tab{
+    display: none;
+}
   .card-input-element {
     display: none !important;
 }
   .radio-card:focus{
     box-shadow:inset 10px  10px 10px #888888 !important;
 
+  }
+  .radio-card{
+    border-radius: 32px;
+    box-shadow: -6px -6px 6px rgb(255 255 255 / 10%), 6px 6px 10px rgb(0 0 0 / 40%);
   }
   body{
     padding: 0px;
@@ -587,6 +633,13 @@ padding-right: 8px;
           box-shadow:inset 10px  10px 10px #888888 !important;
 
         }
+        .tab{
+          display: none;
+      }
+        .radio-card{
+          border-radius: 32px;
+          box-shadow: -6px -6px 6px rgb(255 255 255 / 10%), 6px 6px 10px rgb(0 0 0 / 40%);
+        }
         .col2-5{
           width: 20%;
           float: left;
@@ -636,6 +689,10 @@ padding-right: 8px;
         }  
         .blue-card-text{
             font-size: 22px;
+        }
+        .radio-card{
+          border-radius: 32px;
+          box-shadow: -6px -6px 6px rgb(255 255 255 / 10%), 6px 6px 10px rgb(0 0 0 / 40%);
         }
         .nav{
             padding-top: 10px;
