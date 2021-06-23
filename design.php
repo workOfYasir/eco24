@@ -22,7 +22,7 @@ Mit Soforthilfe-Garantie!
 
 </div>
 <div class="col-md-12 col-sm-12 col-xs-12 text-center " style="padding-left: 0px;">
-            <form class="regForm" action="home.php">
+            <form class="regForm" id="regForm" action="home.php">
 
                 <div class="tab col-xs-12 col-md-12 col-sm-12 fieldsets">
                     <div class="col-md-6 text-left" >
@@ -516,7 +516,7 @@ Mit Soforthilfe-Garantie!
                                     </div>
                                     <div class="mt-5">&nbsp;</div>
                                     <div class="col-md-12 text-right">
-                                      <button type="submit" name="submit" onclick="validate()" class=" btn  btn-css"id="submit">
+                                      <button type="button" name="submitBTN" onclick="validate()" class=" btn  btn-css"id="submitBTN">
                                         Absenden
                                       </button>
                                     </div>

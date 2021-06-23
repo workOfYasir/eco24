@@ -71,7 +71,18 @@ if( v1 =='' && v2 =='' && v3=='' && v4==''){
     document.getElementById('nachname').style.backgroundColor='#F8DDDD';
     document.getElementById('email').style.backgroundColor='#F8DDDD';
 }
+// document.getElementById("regForm").submit();
+if(v1 !='' && v2 !='' && v3!='' && v4!=''){
+  // console.log('yes');
+  document.getElementById("regForm").submit(); 
 }
+}
+// document.getElementById("submitBTN").onclick = submitAction;
+// function submitAction()
+// {
+//     document.getElementById("regForm").submit();
+//     return false;
+// }
 function nextValidate(n) {
   var validNo = document.getElementById('Postleitzahl').value ;
   console.log('validate:'+validNo);

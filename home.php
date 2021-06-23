@@ -41,16 +41,3 @@ Eco24 erbringt ausschließlich wirtschaftliche und kaufmännische Dienstleistung
 </div>
 </div>
 
-<?php
-include("./assets/components/footer.php");
-?>
-<script>
-//       $( document ).ready(function() {
-//           console.log('yes');
-//             // document.getElementsByClassName("tab-nxt").style.display='none';
-//             var elems = document.getElementsByClassName('tab-nxt');
-// for (var i=0;i<elems.length;i+=1){
-//   elems[i].style.display = 'none';
-// }
-//       });
-</script>
