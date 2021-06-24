@@ -18,20 +18,13 @@ $email=$_POST['email'];
 $telefon=$_POST['telefon'];
 $und=$_POST['und'];
 $plz=$_POST['plz'];
-$json=array('StepOne'=>$radio1,'StepTwo'=>$radio2,'StepThree'=>$radio3,'Postleitahl'=>$number,'StepFour'=>$radio4,'DateOfBirth'=>$birthdate,'Vorname'=>$vorname,'Nachname'=>$nachname,'Email'=>$email,'telefonnumber'=>$telefon,'Srabe'=>$und,'PLZ'=>$plz);
+$json=array('StepOne'=>$radio1,'StepTwo'=>$radio2,'StepThree'=>$radio3,'Postleitahl'=>$number,'StepFour'=>$radio4,'DateOfBirth'=>$birthdate,'Vorname'=>$vorname,'Nachname'=>$nachname,'Email'=>$email,'Telefonnummber'=>$telefon,'Strabe'=>$und,'PLZ'=>$plz);
 $jsonData = json_encode($json);
 // die($jsonData);
  $jsonData;
 
-
-// Setup request to send json via POST
-
-
-
-// Attach encoded JSON string to the POST fields
 curl_setopt($ch, CURLOPT_POSTFIELDS, $jsonData);
 
-// Set the content type to application/json
 curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type:application/json'));
 
 // Return response instead of outputting
