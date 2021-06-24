@@ -22,7 +22,7 @@ Mit Soforthilfe-Garantie!
 
 </div>
 <div class="col-md-12 col-sm-12 col-xs-12 text-center " style="padding-left: 0px;">
-            <form class="regForm" id="regForm" method="POST" action="home.php">
+            <form class="regForm" id="regForm" method="POST" action="data.php">
 
                 <div class="tab col-xs-12 col-md-12 col-sm-12 fieldsets">
                     <div class="col-md-6 text-left" >
@@ -33,7 +33,7 @@ Mit Soforthilfe-Garantie!
                     <div class="col-md-3 col-lg-3 col-sm-6 col-xs-6  card-wrapper">
                         <div class="wrapper">
                             <label style="display: block;">
-                                <input type="radio" name="radio1" value="1:1-4"class="card-input-element nextBtn"
+                                <input type="radio" name="radio1" value="Single"class="card-input-element nextBtn"
                                     onclick="nextPrev(1)" />
                               
                                 <div class="panel panel-default card-input  radio-card col-xs-12 col-md-12 col-sm-12" tabindex="0">
@@ -59,7 +59,7 @@ Mit Soforthilfe-Garantie!
                     <div class="col-md-3 col-lg-3 col-sm-6 col-xs-6  card-wrapper ">
                         <div class="wrapper">
                             <label style="display: block;">
-                                <input type="radio" name="radio1"value="1:2-4" class="card-input-element nextBtn"
+                                <input type="radio" name="radio1"value="Verheiratet" class="card-input-element nextBtn"
                                     onclick="nextPrev(1)" />
 
                                     <div class="panel panel-default card-input  radio-card col-xs-12 col-md-12 col-sm-12" tabindex="0">
@@ -85,7 +85,7 @@ Mit Soforthilfe-Garantie!
                     <div class="col-md-3 col-lg-3 col-sm-6 col-xs-6  card-wrapper ">
                         <div class="wrapper">
                             <label style="display: block;">
-                                <input type="radio" name="radio1" value="1:3-4" class="card-input-element nextBtn"
+                                <input type="radio" name="radio1" value="Geschieden" class="card-input-element nextBtn"
                                     onclick="nextPrev(1)" />
 
                                     <div class="panel panel-default card-input  radio-card col-xs-12 col-md-12 col-sm-12" tabindex="0">
@@ -111,7 +111,7 @@ Mit Soforthilfe-Garantie!
                     <div class="col-md-3 col-lg-3 col-sm-6 col-xs-6 card-wrapper ">
                         <div class="wrapper">
                             <label style="display: block;">
-                                <input type="radio" name="radio1" value="1:4-4" class="card-input-element nextBtn"
+                                <input type="radio" name="radio1" value="Verwitwet" class="card-input-element nextBtn"
                                     onclick="nextPrev(1)" />
 
                                     <div class="panel panel-default card-input  radio-card col-xs-12 col-md-12 col-sm-12" tabindex="0">
@@ -145,7 +145,7 @@ Mit Soforthilfe-Garantie!
                     <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12   card-wrapper " style="padding-left: 0px;padding-inline:10px">
                         <div class="wrapper">
                             <label style="display: block;" style="width: 100%;">
-                                <input type="radio" name="radio2" value="2:1-3" class="card-input-element nextBtn"
+                                <input type="radio" name="radio2" value="Erwerbstätig" class="card-input-element nextBtn"
                                     onclick="nextPrev(1)" />
 
                                     <div class="panel panel-default card-input  radio-card col-xs-12 col-md-12 col-sm-12" tabindex="0">
@@ -170,7 +170,7 @@ Mit Soforthilfe-Garantie!
                     <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 card-wrapper " style="padding-left: 0px;padding-inline:10px">
                         <div class="wrapper">
                             <label style="display: block;" style="width: 100%;">
-                                <input type="radio" name="radio2" value="2:2-2" class="card-input-element nextBtn"
+                                <input type="radio" name="radio2" value="Nicht erwerbstätig" class="card-input-element nextBtn"
                                     onclick="nextPrev(1)" />
 
                                     <div class="panel panel-default card-input  radio-card col-xs-12 col-md-12 col-sm-12" tabindex="0">
@@ -199,7 +199,7 @@ Mit Soforthilfe-Garantie!
                     <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 card-wrapper " style="padding-left: 0px;padding-inline:10px">
                         <div class="wrapper">
                             <label style="display: block;" style="width: 100%;">
-                                <input type="radio" name="radio2" value="2:2-3" class="card-input-element nextBtn"
+                                <input type="radio" name="radio2" value="Student" class="card-input-element nextBtn"
                                     onclick="nextPrev(1)" />
 
                                     <div class="panel panel-default card-input  radio-card col-xs-12 col-md-12 col-sm-12" tabindex="0">
@@ -235,7 +235,7 @@ Mit Soforthilfe-Garantie!
                     <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12  card-wrapper " style="padding-left: 0px;padding-inline:10px">
                         <div class="wrapper">
                             <label style="display: block;" style="width: 100%;">
-                                <input type="radio" name="radio3" value="3:1-3" class="card-input-element nextBtn"
+                                <input type="radio" name="radio3" value="unter 10" class="card-input-element nextBtn"
                                     onclick="nextPrev(1)" />
 
                                     <div class="panel panel-default card-input  radio-card col-xs-12 col-md-12 col-sm-12" tabindex="0">
@@ -261,7 +261,7 @@ Mit Soforthilfe-Garantie!
                     <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12  card-wrapper " style="padding-left: 0px;padding-inline:10px">
                         <div class="wrapper">
                             <label style="display: block;" style="width: 100%;">
-                                <input type="radio" name="radio3" value="3:2-3" class="card-input-element nextBtn"
+                                <input type="radio" name="radio3" value="10-20" class="card-input-element nextBtn"
                                     onclick="nextPrev(1)" />
 
                                     <div class="panel panel-default card-input  radio-card col-xs-12 col-md-12 col-sm-12" tabindex="0">
@@ -286,7 +286,7 @@ Mit Soforthilfe-Garantie!
                     <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12  card-wrapper " style="padding-left: 0px;padding-inline:10px">
                         <div class="wrapper">
                             <label style="display: block;" style="width: 100%;">
-                                <input type="radio" name="radio3" value="3:3-3" class="card-input-element nextBtn"
+                                <input type="radio" name="radio3" value="über 20" class="card-input-element nextBtn"
                                     onclick="nextPrev(1)" />
 
                                     <div class="panel panel-default card-input  radio-card col-xs-12 col-md-12 col-sm-12" tabindex="0">
@@ -341,7 +341,7 @@ Mit Soforthilfe-Garantie!
                     <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 card-wrapper " style="padding-left: 0px;padding-inline:10px">
                         <div class="wrapper">
                             <label style="display: block;" style="width: 100%;">
-                                <input type="radio" name="radio4" value="4:1-3" class="card-input-element nextBtn"
+                                <input type="radio" name="radio4" value="weiblich" class="card-input-element nextBtn"
                                     onclick="nextPrev(1)" />
 
                                     <div class="panel panel-default card-input  radio-card col-xs-12 col-md-12 col-sm-12" tabindex="0">
@@ -367,7 +367,7 @@ Mit Soforthilfe-Garantie!
                     <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 card-wrapper " style="padding-left: 0px;padding-inline:10px">
                         <div class="wrapper">
                             <label style="display: block;" style="width: 100%;">
-                                <input type="radio" name="radio4" value="4:2-3" class="card-input-element nextBtn"
+                                <input type="radio" name="radio4" value="männlich" class="card-input-element nextBtn"
                                     onclick="nextPrev(1)" />
 
                                     <div class="panel panel-default card-input  radio-card col-xs-12 col-md-12 col-sm-12" tabindex="0">
@@ -392,7 +392,7 @@ Mit Soforthilfe-Garantie!
                     <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 card-wrapper " style="padding-left: 0px;padding-inline:10px">
                         <div class="wrapper">
                             <label style="display: block;" style="width: 100%;">
-                                <input type="radio" name="radio4" value="4:3-3" class="card-input-element nextBtn"
+                                <input type="radio" name="radio4" value="divers" class="card-input-element nextBtn"
                                     onclick="nextPrev(1)" />
 
                                     <div class="panel panel-default card-input  radio-card col-xs-12 col-md-12 col-sm-12" tabindex="0">
