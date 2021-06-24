@@ -21,7 +21,7 @@ $plz=$_POST['plz'];
 $json=array('StepOne'=>$radio1,'StepTwo'=>$radio2,'StepThree'=>$radio3,'Postleitahl'=>$number,'StepFour'=>$radio4,'DateOfBirth'=>$birthdate,'Vorname'=>$vorname,'Nachname'=>$nachname,'Email'=>$email,'telefonnumber'=>$telefon,'Srabe'=>$und,'PLZ'=>$plz);
 $jsonData = json_encode($json);
 // die($jsonData);
-echo $jsonData;
+ $jsonData;
 
 
 // Setup request to send json via POST
