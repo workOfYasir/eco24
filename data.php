@@ -18,7 +18,8 @@ $email=$_POST['email'];
 $telefon=$_POST['telefon'];
 $und=$_POST['und'];
 $plz=$_POST['plz'];
-$json=array('StepOne'=>$radio1,'StepTwo'=>$radio2,'StepThree'=>$radio3,'Postleitahl'=>$number,'StepFour'=>$radio4,'DateOfBirth'=>$birthdate,'Vorname'=>$vorname,'Nachname'=>$nachname,'Email'=>$email,'Telefonnummber'=>$telefon,'Strabe'=>$und,'PLZ'=>$plz);
+
+$json=array('StepOne'=>$radio1,'StepTwo'=>$radio2,'StepThree'=>$radio3,'Postleitahl'=>$number,'StepFour'=>$radio4,'DateOfBirth'=>$birthdate,'Vorname'=>$vorname,'Nachname'=>$nachname,'Email'=>$email,'Telefonnummer'=>$telefon,'Strabe'=>$und,'PLZ'=>$plz);
 $jsonData = json_encode($json);
 // die($jsonData);
  $jsonData;
