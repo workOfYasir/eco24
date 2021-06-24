@@ -23,7 +23,7 @@ Mit Soforthilfe-Garantie!
 
 </div>
 <div class="col-md-12 col-sm-12 col-xs-12 text-center " style="padding-left: 0px;">
-            <form class="regForm" id="regForm" method="POST" action="data.php">
+            <form class="regForm" id="regForm" method="POST" action="home.php">
 
                 <div class="tab col-xs-12 col-md-12 col-sm-12 fieldsets">
                     <div class="col-md-6 text-left" >
